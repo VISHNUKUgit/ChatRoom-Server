@@ -19,7 +19,7 @@ const PORT = 4000 || process.env.PORT ;
 // add Socket.io to the project to create a real-time connection.
 const socketIO = require('socket.io')(http, {
     cors: {
-        origin: "https://chatroom-client-silk.vercel.app"
+        origin: "http://localhost:3000"
         
     }
 });
